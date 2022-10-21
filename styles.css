@@ -1,0 +1,1670 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans&display=swap');
+
+.nav-item a {
+    color: white;
+    font-family: 'Alegreya Sans', serif;
+}
+
+.navbar-brand {
+    margin-right:0;
+}
+.navbar-brand img{
+    width:15vw;
+    height: auto;
+}
+.navbar .navbar-nav .nav-link{
+    color: black;
+    font-size: 1.5em;
+    font-weight: 1000 !important;
+    font-family: 'Alegreya Sans', sans-serif;
+}
+.navbar .navbar-nav{
+    border-top: 10px solid purple;
+    border-bottom: 10px solid purple;
+}
+
+.image-holder{
+    cursor: pointer;
+  }
+.image-holder:hover {
+filter: blur(5px);
+transition: 0.5s ease-in-out;
+}
+    
+.html {
+    width: 100vw;
+}
+
+  
+/* PHONE */
+
+@media screen and (max-width: 375px)
+{   
+    .body {
+        display: flex;
+        justify-content: center;
+        max-width: 30%;
+    }
+    .navbar-toggler {
+        background-color: purple !important;
+    }
+    .navbar .navbar-nav .nav-link{
+        padding-left: 3vw;
+        font-size: 0.8em;
+        color: rgb(71, 22, 71) !important;
+    }
+    .navbar-brand img{
+        width:35vw;
+        height: auto;
+    }
+
+    /* WELCOME SECTION--------------------- */
+    .main-column1 {
+        flex: 1;
+        flex-basis: 27%;
+        padding-top: 20px;
+    }
+    .main-column2 {
+        flex: 2;
+        flex-basis: 27%;
+    }
+
+    .main-column2 img {
+        display: flex;
+        max-width: 100% !important;
+        height: auto;   
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    #group-pic {
+        width: 100%;
+    }
+
+    .main-title {
+        font-size: 10vw;
+        padding-bottom: 30px;
+        padding-top: 30px;
+        font-weight: 1000;
+        font-family: 'Alegreya Sans', sans-serif;
+    }
+    #welcome-title {
+        padding-top: 10px;
+        padding-bottom: 5px;
+        font-size: 7vw;
+    }
+    .btn-primary {
+        background-color: #634C82 !important;
+    }
+    #join-button {
+        font-weight: bold !important;
+        font-size: 5vw !important;
+        font-family: 'Alegreya Sans', sans-serif;
+    }
+    #main-container {
+        height:fit-content;
+        padding-top: 10px;
+        width: 100vw;
+        background-color: #d3cbdf
+    }
+
+    
+
+
+    /* INITIATIVES SECTION----------------- */
+    .initiatives-sec {
+        background-color: #AD92BD;
+        height: 100%;
+        vertical-align: middle;
+        width: 100vw;
+        padding-bottom: 30px;
+    }
+    .initiatives-container {
+        align-items: center;
+    }
+    #focus {
+        padding-top: 20px;
+        font-size: 10vw !important;
+    }
+
+    .init-column {
+        flex-basis: 80vw;
+    }
+
+    .card {
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        max-height: auto;
+    }
+    .card-body {
+        text-align: center;
+    }
+    .card-title {
+        font-size: 30px !important;
+        font-weight: bold;
+        font-family: 'Alegreya Sans', sans-serif;
+        text-align: center;
+    }
+
+
+    /*SCHOLARSHIP SECTION--------*/
+    .scholarship-sec {
+        background-color:rgb(71, 18, 108);
+    }
+
+    #stats-row {
+        justify-content: center;
+        
+    }
+    #gathered {
+        display: none;
+    }
+
+    .schol-col2 {
+        flex: 27%;
+        justify-content: center;
+        text-align: center;
+        padding-top: 10px;
+    }
+    .apply-content1 {
+        color: white;
+        font-size: 10vw !important;
+        font-family: 'Alegreya Sans', sans-serif;
+        
+    }
+    .apply-content2 {
+        justify-content: flex-end;
+        color: white;
+        font-size: 8vw !important;
+        font-family: 'Alegreya Sans', sans-serif;
+    }
+    #apply-here-row {
+        display: flex;
+        justify-content: flex-end;
+        padding-top: 10px;
+        padding-bottom: 20px;
+    }
+    #apply-here-btn {
+        justify-content: flex-end;
+        align-items: center;
+        background-color: white !important;
+        width: 50%;
+        font-size: 1vw !important;
+    }
+
+    /* TESTIMONIAL SECTION ---------------*/
+    #schol-recip {
+        max-width: 100vw;
+        height: 50vh;
+    }
+    #quote {
+        padding-top: 15px;
+        font-size: 25px;
+        color: black;
+        align-items: center;
+        font-family: 'Alegreya Sans', sans-serif;
+        padding-bottom: 15px;
+    }
+    #quote-owner {
+        padding-top: 30px;
+        font-size: 25px !important;
+        color: black;
+        padding-bottom: 15px;
+
+    }
+    .testimony-sec {
+        height: 100%;
+        background-color: #A891C6;
+    }
+    
+    .test-col2 {
+        padding-top: 10px;
+        flex: 1.0;
+        padding-left: 50px;
+        padding-right: 48px;
+    }
+
+
+    /* DONATE SEC*/
+    .donate-sec {
+        padding-top: 10px;
+        padding-bottom: 40px;
+    }
+    #support-school {
+        font-style: italic;
+        font-size: 8vw !important;
+        padding-top: 10px;
+        padding-bottom: 20px;
+        font-family: 'Alegreya Sans', sans-serif;
+    }
+    #donate-button {
+        font-family: 'Alegreya Sans', sans-serif;
+        font-size: 7vw !important;
+        font-weight: bold;
+    }
+    #support-title {
+        font-size: 15vw !important;
+    }
+
+    /* UPCOMING-SEC*/
+    .upcoming-sec {
+        display: flex;
+        flex-direction: column;
+        background-color: #55206F;
+    }
+    .upcoming-title {
+        font-size: 10vw !important;
+        padding-bottom: 40px;
+        font-family: 'Alegreya Sans', sans-serif;
+        color: white !important;
+        padding-top: 20px;
+    }
+    .event-col {
+        flex-basis: 100vw;
+        padding-bottom: 50px;
+    }
+    .cal-col {
+        display: flex;
+        flex: 0.1;
+    }
+    .event-row {
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    #cal {
+        height: 50vw;
+        width: auto;
+    }
+
+    /*NEWS SEC*/
+    .news-container{
+        vertical-align: center;
+    }
+
+    .news-box1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-basis: 27%;
+        background-image: url(assets/autotech-final.png);
+        background-size: 100% 100%;
+        text-align: center;
+        padding-top: 15px;
+
+    }
+    .news-box2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-basis: 27%;
+        background-image: url(assets/nomation-pic.png);
+        background-size: 100% 100%;
+        text-align: center;
+    }
+    .news-box3 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-basis: 27%;
+        padding-top: 30px;
+        background-image: url(assets/heritage-found.png);
+        background-size: 100% 100%;
+        text-align: center;
+    }
+    #newssec-title {
+        padding-top: 50px; 
+        font-family: 'Alegreya Sans', sans-serif;
+        font-size: 10vw !important;
+    }
+
+    #read-more {
+        padding-top: 15px;
+    }
+    .header-row {
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        padding-bottom: 275px;
+    
+    }
+
+    #headline {
+        color: white;
+        font-size: 8vw;
+        padding-right: 15px;
+        padding-left: 40px;
+        padding-top: 20px;
+        font-family: 'Alegreya Sans', sans-serif;
+    }
+
+    #see-allrow {
+        display: flex;
+        justify-content: center;
+    }
+    #see-more-button {
+        display: flex;
+        padding-top: 40px;
+        text-align: center;
+        width: 70%;
+        justify-content: center !important;
+    }
+    #block-deco {
+        padding-top: 40px;
+    }
+
+    /* SPONSORS SEC*/
+    .sponsors-sec {
+        padding-right: 20px;
+        padding-bottom: 15px;
+    }
+
+    .sponsor-container {
+        justify-content: space-around;
+    }
+
+    #sponsors-row {
+        display: flex;
+        text-align: center;
+        padding-top: 20px;
+    }
+
+    .sponsor1 {
+        display: flex;
+        flex: 0.1;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 20px;
+    }
+    .sponsor2 {
+        display: flex;
+        flex: 0.1;
+        justify-content: center;
+        align-items: center;
+    }
+    .sponsor3 {
+        display: flex;
+        flex: 0.1;
+        justify-content: center;
+        align-items: center;
+    }
+    .sponsor4 {
+        display: flex;
+        flex: 0.1;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 30px;
+    }
+    
+    #forvia {
+        max-width: 100%;
+        max-height: 100%;
+    }
+    #foley {
+        max-width: 100%;
+        max-height: 100%;
+    }
+    #deloitte {
+        max-width: 80%;
+        max-height: 45%;
+    }
+    #magna {
+        max-width: 85%;
+        max-height: 65%;
+    }
+    #sponsors-title {
+        color: #3C156D !important;
+        text-decoration-line: underline !important;
+        font-size: 55px !important;
+        padding-bottom: 60px;
+        font-family: 'Alegreya Sans', sans-serif;
+    }
+
+    /* FOOTER-SEC*/ 
+    .footer-sec {
+        background-color: #3C156D;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .left-footcol {
+        display: flex;
+        flex-direction: column;
+        flex-basis: 30%;
+       
+    }
+    .left-footcol img {
+        width: 50%;
+    }
+    .right-footcol {
+        flex-basis: 30%;
+    }
+    .social-container {
+        display: flex;
+        padding-top: 30px;
+        justify-content: space-around;
+    }
+
+    .awaf-logo {
+        width: 30vw;
+        height: auto;
+        padding-bottom: 50px;
+        padding-top: 30px;
+    }
+    .facebook {
+        display: flex;
+        flex-basis: 27%;
+    }
+    .linkedln {
+        display: flex;
+        flex-basis: 27%;
+        
+    }
+    .youtube {
+        display: flex;
+        flex-basis: 27%;
+    }
+    .twitter {
+        display: flex;
+        flex-basis: 27%;
+    }
+
+    #facebook-logo {
+        height: 50px;
+        width: auto;
+    }
+    #twitter-logo {
+        height: 50px;
+        width: auto;
+    }
+    #linkedln-logo {
+        height: 50px;
+        width: auto;
+    }
+    #youtube-logo {
+        height: 50px;
+        width: auto;
+    }
+    .footer-text {
+        font-size: 5vw;
+        color: white;
+        font-family: 'Alegreya Sans', sans-serif;
+    }
+    .footer-text2{
+        font-size: 3vw;
+        color: white;
+        padding-top: 30px;
+        font-family: 'Alegreya Sans', sans-serif;
+    }
+
+    .contact-row {
+        padding-top: 20px;
+        padding-bottom: 30px;
+    }
+        
+    /* COMMON-USE*/
+    h1 {
+        font-family: 'Alegreya Sans', sans-serif;
+    }
+    h2 {
+        font-size: 55px !important;
+        padding-bottom: 40px;
+        font-family: 'Alegreya Sans', sans-serif;
+    }
+
+    p {
+        font-size: 25px; 
+        padding-right: 60px;
+        font-family: 'Alegreya Sans', sans-serif;
+    }
+
+    h3 {
+        font-size: 40px !important;
+        font-weight: bold !important;
+        font-family: 'Alegreya Sans', sans-serif;
+    }
+
+    h4 {
+        font-size: 20px !important;
+        font-family: 'Alegreya Sans', sans-serif;
+    }
+
+    .row {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        flex-basis: 100%;
+        align-items: center;
+        max-width: 100vw;
+    }
+
+}
+
+/* ------------------------------------------------------------------------*/
+/* ---------------------START OF TABLET--------------------------------------*/
+/* ------------------------------------------------------------------------*/
+@media screen and (min-width: 376px) and (max-width: 1024px)
+{
+    
+    
+    /* WELCOME SECTION--------------------- */
+    body {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+    }
+    .navbar-toggler {
+        background-color: purple !important;
+    }
+    .navbar .navbar-nav .nav-link{
+        padding-left: 3vw;
+        font-size: 1.2em;
+        color: rgb(71, 22, 71) !important;
+    }
+    .navbar-brand img{
+        width:25vw;
+        height: auto;
+    }
+
+    #main-container {
+        justify-content: space-around;
+        align-items: center;
+        background-color: rgb(217, 205, 220);
+        width: 100%;
+        max-height: fit-content;
+        padding-left: 5vw;
+        padding-right: 5vw;
+        padding-bottom: 5vh;
+    }
+    
+    .main-column1 {
+        flex: 1;
+        padding-top: 2vh;
+        padding-bottom:5vh;
+        max-height: 100%;
+    }
+    .main-column2 {
+        flex: 1;
+    }
+
+
+    .main-column2 img {
+        display: flex;
+        max-width: 45vw;
+        height: auto;   
+        flex-shrink: 1;
+    }
+
+    .main-column2 img {
+        display: flex;
+        max-width: 100%;
+        height: auto;   
+        flex-shrink: 1;
+    }
+    #group-pic {
+        width: 100%;
+    }
+
+    .main-title {
+        font-size: 8vw;
+        padding-top: 80px;
+        padding-bottom: 30px;
+        padding-top: 30px;
+        font-weight: 1000;
+        font-family: 'Alegreya Sans', sans-serif;
+    }
+    #welcome-title {
+        font-size: 4vw;
+        padding-top: 25px;
+        padding-bottom: 20px;
+    
+    }
+    .btn-primary {
+        background-color: #634C82 !important;
+    }
+    #join-button {
+        font-weight: bold !important;
+        font-size: 25px !important;
+        font-family: 'Alegreya Sans', sans-serif;
+    }
+
+
+    /* INITIATIVES SECTION----------------- */
+    .initiatives-sec {
+        display: table-cell;
+        background-color: #AD92BD;
+        height: 100vh;
+        width: 100%;
+        vertical-align: middle;
+        padding-left: 5vw;
+        padding-top: 5vw;
+        
+    }
+
+    .initiatives-container {
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    .init-column {
+        flex-basis: 25%;
+        padding-bottom: 5vw;
+    }
+
+    .card {
+        display: flex;
+        flex-direction: column;
+        max-width: 80vw;
+        max-height: 100%;
+
+    }
+    .card-body {
+        text-align: center;
+    }
+    .card-text {
+        font-size: 30px;
+    }
+    .card-title {
+        font-size: 50px !important;
+        font-weight: bold;
+        font-family: 'Alegreya Sans', sans-serif;
+        text-align: center;
+    }
+
+
+    /*SCHOLARSHIP SECTION--------*/
+    .scholarship-sec {
+        padding-left: 5vw;
+        padding-right: 5vw;
+        padding-top: 3vh;
+        padding-bottom: 3vh;
+        background-color:rgb(71, 18, 108);
+    }
+
+    #stats-row {
+        justify-content: center;
+    }
+    #gathered {
+        display: none;
+    }
+    .schol-col2 {
+        text-align: flex-start;
+    }
+    .apply-content1 {
+        display: flex;
+        color: white;
+        justify-content: flex-start;
+        position: relative;
+        font-size: 7vw;
+        font-weight: 1000;
+        font-family: 'Alegreya Sans', sans-serif;
+        width: 100vw;
+        padding-top: 0.7vh;
+    }
+    .apply-content2 {
+        display: flex;
+        justify-content: flex-start;
+        position: relative;
+        color: white;
+        font-size: 7vw !important;
+        font-family: 'Alegreya Sans', sans-serif;
+        padding-top: 1.1vh;
+        padding-bottom: 0.7vh;
+    }
+    #apply-here-row {
+        display: flex;
+        padding-top: 40px;
+        justify-content: flex-end;
+        padding-bottom: 3vh;
+    }
+    #apply-here-btn {
+        justify-content: flex-end;
+        align-items: center;
+        background-color: white !important;
+        border-color: white;
+    }
+
+    /* TESTIMONIAL SECTION ---------------*/
+    .testimony-sec {
+        height: auto;
+        width: 100%;
+        background-color: #A891C6;
+    }
+    
+    .test-col2 {
+        padding-left: 5vw;
+        padding-right: 5vw;
+        padding-top: 10px;
+        flex: 1.0;
+        height: 100%;
+        width: 100%;
+    }
+
+
+    #schol-recip {
+        width: 100vw;
+        height: auto;
+    }
+    #quote {
+        font-size: 5vw;
+        padding-top: 10vh;
+        color: black;
+        align-items: center;
+        font-family: 'Alegreya Sans', sans-serif;
+    }
+    #quote-owner {
+        padding-top: 3vh;
+        font-size: 4vw !important;
+        color: black;
+        padding-bottom: 5vw;
+
+    }
+
+
+    /* DONATE SEC*/
+    .donate-sec {
+        padding-top: 5vh;
+        padding-bottom: 5vh;
+        padding-left: 5vw;
+        padding-right: 5vw;
+    }
+    #support-school {
+        font-style: italic;
+        font-size: 6vw;
+        padding-top: 5vh;
+        padding-bottom: 5vh;
+        font-family: 'Alegreya Sans', sans-serif;
+    }
+    #donate-button {
+        font-family: 'Alegreya Sans', sans-serif;
+        font-size: 5vw !important;
+        font-weight: bold;
+    }
+
+    /* UPCOMING-SEC*/
+    .upcoming-sec {
+        background-color: #55206F;
+    }
+    .upcoming-title {
+        font-size: 7vw !important;
+        font-family: 'Alegreya Sans', sans-serif;
+        color: white !important;
+    }
+    .event-col {
+        flex: 1;
+    }
+    .cal-col {
+        display: flex;
+        flex: 1;
+        padding-bottom: 5vh;
+
+    }
+    .content-row {
+        padding-top: 5vh;
+        padding-bottom: 5vh;
+        padding-left: 5vw;
+        padding-right: 5vw;
+
+    }
+    .event-row {
+        padding-bottom: 5vh;
+        padding-left: 5vw;
+        padding-right: 5vw;
+    }
+
+    #cal {
+        width: 40vw;
+        height: auto;
+    }
+
+    /*NEWS SEC*/
+    .news-sec {
+        padding-top: 5vh;
+        padding-bottom: 5vh;
+        padding-left: 5vw;
+        padding-right: 5vw;
+    }
+
+    .news-box1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        max-width: 80vw;
+        background-image: url('assets/autotech-final.png');
+        background-size: 100% 100%;
+        text-align: center;
+        padding-top: 5vh;
+
+    }
+    .news-box2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        max-width: 80vw;
+        background-image: url('assets/nomation-pic.png');
+        background-size: 100% 100%;
+        text-align: center;
+    }
+    .news-box3 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        max-width: 80vw;
+        padding-top: 5vh;
+        background-image: url('assets/heritage-found.png');
+        background-size: 100% 100%;
+        text-align: center;
+    }
+    .news-row {
+        padding-top: 3vh;
+        padding-bottom: 3vh;
+    }
+    #newssec-title {
+        padding-top: 3vw; 
+        font-family: 'Alegreya Sans', sans-serif;
+    }
+
+    #read-more {
+        padding-top: 3vw;
+    }
+    .header-row {
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        padding-bottom: 275px;
+    
+    }
+
+    #headline {
+        color: white;
+        font-size: 5vw;
+        padding-right: 15px;
+        padding-left: 40px;
+        padding-top: 20px;
+        font-family: 'Alegreya Sans', sans-serif;
+    }
+
+    #see-allrow {
+        display: flex;
+        justify-content: flex-start;
+    }
+    #see-more-button {
+        display: flex;
+        padding-top: 40px;
+        text-align: center;
+        width: 60%;
+        justify-content: center !important;
+    }
+    #block-deco {
+        padding-top: 40px;
+    }
+
+    /* SPONSORS SEC*/
+    .sponsors-sec {
+        padding-bottom: 150px;
+    }
+
+    .sponsor-container {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    #sponsors-row {
+        display: flex;
+        text-align: center;
+        padding-top: 100px;
+        max-width: 100%;
+    }
+
+    .sponsor1 {
+        display: flex;
+        flex-basis: 27%;
+        justify-content: center;
+        align-items: center;
+    }
+    .sponsor2 {
+        display: flex;
+        flex-basis: 27%;
+    }
+    .sponsor3 {
+        display: flex;
+        flex-basis: 27%;
+    }
+    .sponsor4 {
+        display: flex;
+        flex-basis: 27%;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    #forvia {
+        max-width: 100%;
+        max-height: 100%;
+    }
+    #foley {
+        max-width: 100%;
+        max-height: 100%;
+    }
+    #deloitte {
+        max-width: 80%;
+        max-height: 45%;
+    }
+    #magna {
+        max-width: 85%;
+        max-height: 65%;
+    }
+    #sponsors-title {
+        color: #3C156D !important;
+        text-decoration-line: underline !important;
+        font-size: 7vw !important;
+        padding-bottom: 60px;
+        font-family: 'Alegreya Sans', sans-serif;
+        max-width: 100%;
+    }
+
+    /* FOOTER-SEC*/ 
+    .footer-sec {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #3C156D;
+        padding-top: 5vh;
+        padding-bottom: 9vh;
+        padding-left: 5vw;
+        padding-right: 5vw;
+        max-width: fit-content;
+    }
+
+    .left-footcol {
+        display: flex;
+        flex-direction: column;
+        flex-basis: 30%;
+       
+    }
+    .right-footcol {
+        flex-basis: 30%;
+        max-width: 100%;
+    }
+    .social-container {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .awaf-logo {
+        width: 200px;
+        height: auto;
+        padding-bottom: 50px;
+    }
+    .facebook {
+        display: flex;
+        flex-basis: 27%;
+    }
+    .linkedln {
+        display: flex;
+        flex-basis: 27%;
+        
+    }
+    .youtube {
+        display: flex;
+        flex-basis: 27%;
+    }
+    .twitter {
+        display: flex;
+        flex-basis: 27%;
+    }
+
+    #facebook-logo {
+        height: 50px;
+        width: auto;
+    }
+    #twitter-logo {
+        height: 50px;
+        width: auto;
+    }
+    #linkedln-logo {
+        height: 50px;
+        width: auto;
+    }
+    #youtube-logo {
+        height: 50px;
+        width: auto;
+    }
+    .footer-text {
+        font-size: 3vw;
+        color: white;
+        font-family: 'Alegreya Sans', sans-serif;
+    }
+    .footer-text2{
+        font-size: 3vw;
+        color: white;
+        padding-top: 30px;
+        font-family: 'Alegreya Sans', sans-serif;
+    }
+
+    .contact-row {
+        padding-top: 20px;
+        padding-bottom: 30px;
+    }
+    .left-footcol img{
+       width: 17vw;
+    }
+        
+    /* COMMON-USE*/
+    h1 {
+        font-family: 'Alegreya Sans', sans-serif;
+    }
+    h2 {
+        font-size: 55px !important;
+        padding-bottom: 40px;
+        font-family: 'Alegreya Sans', sans-serif;
+    }
+
+    p {
+        font-size: 25px; 
+        padding-right: 60px;
+        font-family: 'Alegreya Sans', sans-serif;
+    }
+
+    h3 {
+        font-size: 40px !important;
+        font-weight: bold !important;
+        font-family: 'Alegreya Sans', sans-serif;
+    }
+
+    h4 {
+        font-size: 20px !important;
+        font-family: 'Alegreya Sans', sans-serif;
+    }
+
+    .row {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        flex-basis: 100%;
+        align-items: center;
+    }
+
+    .section {
+        width: 100vw;
+        height: auto;
+    }
+}    
+
+/* ------------------------------------------------------------------------*/
+/* ---------------------END OF TABLET--------------------------------------*/
+/* ------------------------------------------------------------------------*/
+
+@media screen and (min-width: 1025px) { 
+    body {
+        width: 100vw;
+    }
+   
+    .navbar .container-fluid {
+        flex-direction: column;
+        max-width: 100vw;
+        padding-left: 5vw;
+        padding-right: 5vw;
+    }
+    .navbar .navbar-nav .nav-item{
+        padding: 0.5em 1em;
+        padding-left: 2.35em !important;
+        padding-right: 2.35em !important;
+        font-weight: 1000;
+        max-width: 100%;
+        font-size:1.3vw;
+    }
+    .navbar-nav {
+        margin-top: 0;
+        flex-flow: column nowrap;
+        max-width: 100vw;
+    }
+    .navbar-brand img {
+        width: 17vw;
+        height: auto;
+    }
+
+    body {
+        position: absolute;
+    }
+    #logo-top {
+        display: none;
+    }
+    
+
+
+    .upcoming-sec {
+        display: flex;
+        flex-direction: column;
+        background-color: #55206F;
+        padding-right: 80px;
+    }
+    .upcoming-title {
+        font-size: 55px !important;
+        padding-bottom: 40px;
+        font-family: 'Alegreya Sans', sans-serif;
+        color: white !important;
+    }
+    .event-col {
+        flex: 0.5;
+    }
+    .cal-col {
+        display: flex;
+        flex: 0.1;
+    }
+
+    .news-container {
+        display: flex;
+        justify-content: space-between;
+        padding-right: 80px;
+    }
+
+
+    .nav-item a {
+        color: white;
+        font-family: 'Alegreya Sans', serif;
+    }
+    
+    .navbar-custom {
+        background-color: rgb(71, 18, 108);
+        opacity: 90%;
+    }
+
+    
+    /* WELCOME SECTION--------------------- */
+    #main-container {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        background: white url(assets/background-detal.png);
+        background-repeat: no-repeat;
+        background-position: right;
+        background-size: fixed;
+        height:fit-content;
+        padding-top: 10vh;
+        width: 100%;
+        background-color: rgb(217, 205, 220);
+    }
+    .main-column1 {
+        flex: 1;
+        flex-basis: 27%;
+        max-height: 100%;
+        padding-left: 80px;
+        padding-bottom: 50px;
+    }
+    .main-column2 {
+        flex: 1.4;
+        flex-basis: 27%;
+    }
+
+    .main-column2 img {
+        display: flex;
+        max-width: 45vw;
+        height: auto;   
+        flex-shrink: 1;
+    }
+    #group-pic {
+        width: 750px;
+    }
+
+    .main-title {
+        font-size: 4vw;
+        padding-bottom: 30px;
+        padding-right: 40px;
+        font-weight: 1000;
+        font-family: 'Alegreya Sans', sans-serif;
+    }
+    #welcome-title {
+        padding-top: 2vh;
+        padding-bottom: 2vh;
+        font-size: 1.5vw;
+    
+    }
+    .btn-primary {
+        background-color: #634C82 !important;
+    }
+    #join-button {
+        font-weight: bold !important;
+        font-size: 1.5vw !important;
+        font-family: 'Alegreya Sans', sans-serif;
+    }
+
+
+    /* INITIATIVES SECTION----------------- */
+    .initiatives-sec {
+        display: table-cell;
+        background-color: #AD92BD;
+        height: 100vh;
+        vertical-align: middle;
+        padding-bottom: 5vh;
+        padding-right: 8vw;
+    }
+
+    .initiatives-container {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    #focus {
+        padding-top: 3vh;
+        max-width: 100%;
+    }
+    .init-column {
+        flex-basis: 29%;
+    }
+
+    .card {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        max-height: 800px;
+    }
+    .card-body {
+        text-align: center;
+    }
+    .card-title {
+        font-size: 40px !important;
+        font-weight: bold;
+        font-family: 'Alegreya Sans', sans-serif;
+        text-align: center;
+    }
+    
+
+
+    /*SCHOLARSHIP SECTION--------*/
+    .scholarship-sec {
+        padding-left: 80px;
+        padding-right: 80px;
+    }
+    .content-container{
+        display: flex;
+        justify-content: space-between;
+        background-image: url(assets/scholarship-deco.png);
+        align-items: center;
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        background-position: absolute;
+    }
+    #stats-row {
+        justify-content: center;
+        
+    }
+    #gathered {
+        font-size: 35px;
+        color: #401577;
+        padding-right: 450px;
+        font-style: italic;
+        font-family: 'Alegreya Sans', sans-serif;
+    }
+    .schol-col1 {
+        display: flex;
+        flex: 27%;
+        padding-top: 400px;
+    }
+    .schol-col2 {
+        flex: 27%;
+        justify-content: center;
+        text-align: center;
+        padding-bottom: 300px;
+    }
+    .apply-content1 {
+        display: flex;
+        color: white;
+        padding-right: 50px !important;
+        padding-top: 300px;
+        justify-content: flex-end;
+        font-size: 60px;
+        font-weight: 1000;
+        font-family: 'Alegreya Sans', sans-serif;
+        max-width: 100%;
+        
+    }
+    .apply-content2 {
+        display: flex;
+        padding-top: 4vh;
+        justify-content: flex-end;
+        align-items: center;
+        color: white;
+        font-size: 45px !important;
+        font-family: 'Alegreya Sans', sans-serif;
+        padding-right: 40px !important;
+        max-width: 100%;
+    }
+    #apply-here-row {
+        display: flex;
+        padding-top: 40px;
+        justify-content: flex-end;
+        padding-left: 100px;
+    }
+    #apply-here-btn {
+        justify-content: center;
+        align-items: center;
+        background-color: white !important;
+    }
+
+    /* TESTIMONIAL SECTION ---------------*/
+    .testimony-sec {
+        display: flex;
+        height: 100%;
+        justify-items: center;
+        align-items: center;
+        background-color: #A891C6;
+        flex-wrap: wrap;
+    }
+    .test-col1 {
+        flex:1;
+    }
+    .test-col2 {
+        padding-top: 10px;
+        flex: 1.0;
+        padding-left: 50px;
+        padding-right: 48px;
+    }
+    #schol-recip {
+        width: auto;
+        height: 80vh;
+    }
+    #quote {
+        font-size: 2vw;
+        color: black;
+        align-items: center;
+        font-family: 'Alegreya Sans', sans-serif;
+    }
+    #quote-owner {
+        padding-top: 30px;
+        font-size: 2vw !important;
+        color: black;
+
+    }
+
+
+    /* DONATE SEC*/
+    .donate-sec {
+        padding-top: 60px;
+        padding-bottom: 80px;
+        padding-right: 80px;
+        
+    }
+    #support-school {
+        font-style: italic;
+        font-size: 48px;
+        padding-top: 10px;
+        padding-bottom: 20px;
+        font-family: 'Alegreya Sans', sans-serif;
+    }
+    #donate-button {
+        font-family: 'Alegreya Sans', sans-serif;
+        font-size: 35px !important;
+        font-weight: bold;
+    }
+
+    /* UPCOMING-SEC*/
+    .content-row {
+        padding-top: 50px;
+
+    }
+    .event-row {
+        padding-top: 40px;
+        padding-bottom: 80px;
+    }
+
+    #cal {
+        height: 200px;
+        width: auto;
+    }
+
+    /*NEWS SEC*/
+    .news-sec {
+        padding-right: 80px;
+    }
+    .news-box1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-basis: 27%;
+        background-image: url(assets/autotech-final.png);
+        background-size: 100% 100%;
+        text-align: center;
+        padding-top: 15px;
+
+    }
+    .news-box2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-basis: 27%;
+        background-image: url(assets/nomation-pic.png);
+        background-size: 100% 100%;
+        text-align: center;
+    }
+    .news-box3 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-basis: 27%;
+        padding-top: 30px;
+        background-image: url(assets/heritage-found.png);
+        background-size: 100% 100%;
+        text-align: center;
+    }
+    #newssec-title {
+        padding-top: 50px; 
+        font-family: 'Alegreya Sans', sans-serif;
+    }
+
+    #read-more {
+        padding-top: 15px;
+    }
+    .header-row {
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        padding-bottom: 275px;
+    
+    }
+
+    #headline {
+        color: white;
+        font-size: 20px;
+        padding-right: 15px;
+        padding-left: 40px;
+        padding-top: 20px;
+        font-family: 'Alegreya Sans', sans-serif;
+    }
+
+    #see-allrow {
+        display: flex;
+        justify-content: center;
+    }
+    #see-more-button {
+        display: flex;
+        padding-top: 40px;
+        text-align: center;
+        width: 30%;
+        justify-content: center !important;
+    }
+    #block-deco {
+        padding-top: 40px;
+    }
+
+    /* SPONSORS SEC*/
+    .sponsors-sec {
+        padding-right: 80px;
+        padding-bottom: 150px;
+    }
+
+    .sponsor-container {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    #sponsors-row {
+        display: flex;
+        text-align: center;
+        padding-top: 100px;
+    }
+
+    .sponsor1 {
+        display: flex;
+        flex-basis: 27%;
+        justify-content: center;
+        align-items: center;
+    }
+    .sponsor2 {
+        display: flex;
+        flex-basis: 27%;
+    }
+    .sponsor3 {
+        display: flex;
+        flex-basis: 27%;
+    }
+    .sponsor4 {
+        display: flex;
+        flex-basis: 27%;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    #forvia {
+        max-width: 100%;
+        max-height: 100%;
+    }
+    #foley {
+        max-width: 100%;
+        max-height: 100%;
+    }
+    #deloitte {
+        max-width: 80%;
+        max-height: 45%;
+    }
+    #magna {
+        max-width: 85%;
+        max-height: 65%;
+    }
+    #sponsors-title {
+        color: #3C156D !important;
+        text-decoration-line: underline !important;
+        font-size: 55px !important;
+        padding-bottom: 60px;
+        font-family: 'Alegreya Sans', sans-serif;
+    }
+
+    /* FOOTER-SEC*/ 
+    .footer-sec {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-right: 80px;
+        background-color: #3C156D;
+        padding-top: 80px;
+        padding-bottom: 200px;
+    }
+
+    .left-footcol {
+        display: flex;
+        flex-direction: column;
+        flex-basis: 30%;
+       
+    }
+    .right-footcol {
+        flex-basis: 30%;
+    }
+    .social-container {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .awaf-logo {
+        width: 200px;
+        height: auto;
+        padding-bottom: 50px;
+    }
+    .facebook {
+        display: flex;
+        flex-basis: 27%;
+    }
+    .linkedln {
+        display: flex;
+        flex-basis: 27%;
+        
+    }
+    .youtube {
+        display: flex;
+        flex-basis: 27%;
+    }
+    .twitter {
+        display: flex;
+        flex-basis: 27%;
+    }
+
+    #facebook-logo {
+        height: 50px;
+        width: auto;
+    }
+    #twitter-logo {
+        height: 50px;
+        width: auto;
+    }
+    #linkedln-logo {
+        height: 50px;
+        width: auto;
+    }
+    #youtube-logo {
+        height: 50px;
+        width: auto;
+    }
+    .footer-text {
+        font-size: 25px;
+        color: white;
+        font-family: 'Alegreya Sans', sans-serif;
+    }
+    .footer-text2{
+        font-size: 18px;
+        color: white;
+        padding-top: 30px;
+        font-family: 'Alegreya Sans', sans-serif;
+    }
+
+    .contact-row {
+        padding-top: 20px;
+        padding-bottom: 30px;
+    }
+        
+    /* COMMON-USE*/
+    h1 {
+        font-family: 'Alegreya Sans', sans-serif;
+    }
+    h2 {
+        font-size: 55px !important;
+        padding-bottom: 40px;
+        font-family: 'Alegreya Sans', sans-serif;
+    }
+
+    p {
+        font-size: 25px; 
+        padding-right: 60px;
+        font-family: 'Alegreya Sans', sans-serif;
+    }
+
+    h3 {
+        font-size: 40px !important;
+        font-weight: bold !important;
+        font-family: 'Alegreya Sans', sans-serif;
+    }
+
+    h4 {
+        font-size: 20px !important;
+        font-family: 'Alegreya Sans', sans-serif;
+    }
+
+    .row {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        flex-basis: 100%;
+        align-items: center;
+    }
+
+    section {
+        padding-left: 80px;
+    }
+
+}

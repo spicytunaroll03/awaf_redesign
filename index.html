@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AWAF</title>
+    <!-- import Javascript variables and functions -->
+    <script src="app.js" defer></script>
+    <!-- import CSS Styles -->
+    <link rel="stylesheet" href="styles.css" /> 
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans&display=swap" rel="stylesheet">
+    <!-- import Bootstrap Files-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <!--import jQuery-->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="shttps://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </head>
+
+    <body>
+    <style>
+
+    .btn {
+    padding: 15px 25px;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: #04AA6D;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+    }
+
+    .btn:hover {background-color: #3e8e41}
+
+    .btn:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+    }
+</style>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark p-md-3" style="background-color: white;"> 
+        <div class="container-fluid">
+          <a href="#description" class="navbar-brand"> 
+                <img src="assets/awaf-rounded-logo.png" alt="awaf-logo">
+          </a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav mx-auto">
+              <a class="nav-item nav-link" href="#">About</a>
+              <a class="nav-item nav-link" href="#">Membership</a>
+              <a class="nav-item nav-link" href="#">Sponsorship</a>
+              <a class="nav-item nav-link" href="#">News & Events</a>
+              <a class="nav-item nav-link" href="#">Scholarships</a>
+              <a class="nav-item nav-link" href="#">Donate</a>
+              <a class="nav-item nav-link" href="#">Login</a>
+            </div>
+          </div>
+        </div>
+    </nav>
+    <!-- Page Content -->
+    
+        <!--Welcome Section -->
+        <section class="container-fluid" id="main-container">
+            <div class="main-column1">
+                <h class="main-title">  Be a Part of Advancing & Empowering Women in Automotive</h>
+                <p id="welcome-title"> Welcome to AWAF! <span style="color: #411775; font-weight: 900"> Automotive Women's Alliance Foundation </span> is a 501(c)3 non-profit dedicated to the advancement of women in the automotive industry.  </p>
+                <a href="#" class="btn btn-primary" id="join-button"><h id="join-button">Join Our Community</h></a>
+            </div>
+            <div class="main-column2">
+                <div class="image-holder">
+                    <a href="https://awafoundation.org/gallery.php"> <img class="img-fluid" src="assets/group-img.png" id="group-pic" alt="awaf members group picture"> </a>
+                </div>
+            </div>
+        </section>
+
+        <!--Initiatives Section-->
+        <section class="initiatives-sec">
+            <div class="row">
+                <h2 id="focus"> We focus on building and sustaining more equitable, inclusive spaces for women in automotive.</h2>
+            </div>
+            <div class="initiatives-container">
+                <div class="init-column">
+                    <div class="card">
+                        <img src="assets/community_pic.jpeg" class="card-img-top" alt="members hugging each other">
+                        <div class="card-body">
+                            <h3 class="card-title">Community</h3>
+                            <h4 class="card-text">Connect with other women and build a strong network within the automotive industry.</h4>
+                            <a href="#" class="btn btn-primary"><h4>Learn More</h4></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="init-column">
+                    <div class="card">
+                        <img src="assets/mentorship.jpeg" class="card-img-top" alt="mentors talking to mentees">
+                        <div class="card-body">
+                            <h class="card-title">Education</h>
+                            <h4 class="card-text">Participate in our STEM Outreach programs to educate our younger generations!</h4>
+                            <a href="#" class="btn btn-primary"><h4>Learn More</h4></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="init-column">
+                    <div class="card">
+                        <img src="assets/for-all.jpeg" class="card-img-top" alt="picture of diverse AWAF members">
+                        <div class="card-body">
+                            <h3 class="card-title">Opportunity</h3>
+                            <h4 class="card-text">We have opportunities for all of women. Explore all the opportunities we have laid out for you!</h4>
+                            <a href="#" class="btn btn-primary"><h4>Learn More</h4></a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!--Scholarship Section-->
+        <section class="scholarship-sec"> 
+            <div class="content-container">
+                <div class="schol-col1">
+                    <h id="gathered"> Gathered from all of North America </h>
+                </div>
+                <div class="schol-col2">
+                    <div class="row" id="stats-row">
+                        <h class="apply-content1"> $552,000 Awarded, </h>
+                        <h class="apply-content2"> 219 Scholarship Receipients</h>
+                    </div>
+                    <div class="row" id="apply-here-row">
+                        <div class="button-row">
+                            <a href="#" class="btn btn-primary" id='apply-here-btn'> <h4 style="font-size: 30px !important; color: black !important; font-weight: bold "> Apply Here </h4></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimony Section-->
+        <div class="testimony-sec">
+            <div class=test-col1>
+                <img src="assets/scholarship_recip.jpeg" id="schol-recip" alt="scholarship receipient accepting award">
+            </div>
+            <div class=test-col2>
+                <h id="quote"> "Receiving the scholarship encourages me to keep on this path and strive to do better.  Your support of my goals means so much and I will continue to be dedicated to my education and committed to encouraging other young women to be a part of this growing industry." </h>
+                <p id="quote-owner"> - Jane D. </p>
+            </div>
+        </div>
+
+        <!-- Donate Section-->
+        <section class="donate-sec">
+            <h2 class="main-title" id="support-title"> Support Our Stem & Scholarship Programs </h2>
+            <p id="support-school"> We're pushing the envelope to accelerate our ability to achieve our vision and mission. Any contribution is generous!</p>
+            <button type="button" class="btn btn-primary btn-lg" style="background-color: #54347D !important"><h id="donate-button"> Donate!</h> </button>
+        </section>
+
+        <!-- Upcoming Sec-->
+        <section class="upcoming-sec">
+            <div class="row content-row">
+                <h class="upcoming-title"> Upcoming Events </h>
+            </div>
+            <div class="row event-row">
+                <div class="column cal-col">
+                    <img src="assets/cal-nov1.png" id="cal" alt="calendar event for november 1">
+                </div>
+                <div class="column event-col">
+                    <p style="text-decoration-line:underline; color: white" class="event-title"> 
+                        Women in the Workplace 
+                    </p>
+                    <p style="color: white" class="event-desc"> Intimate women-only event to openly discuss harrying in the workplace.</p>
+                    <button type="button" class="btn btn-primary btn-lg" style="color: white; font-weight: bold !important; background-color: rgb(29, 8, 37) !important; border-color: white !important;"><h4> More Details ></h4> </button>
+                </div>
+                <div class="column cal-col">
+                    <img src="assets/cal-nov10.png" id="cal" alt="calendar event for november 1">
+                </div>
+                <div class="column event-col">
+                    <p style="text-decoration-line:underline; color: white" class="event-title"> 
+                        Fall Fling
+                    </p>
+                    <p style="color: white" class="event-desc"> Relax and network with other women in automotive! </p>
+                    <button type="button" class="btn btn-primary btn-lg" style="color: white; font-weight: bold !important; background-color: rgb(29, 8, 37) !important; border-color: white !important;"><h4> More Details ></h4> </button>
+                </div>
+            </div>
+        </section>
+
+        <!-- News Sec-->
+        <section class="news-sec">
+            <div class="row">
+                <h2 class="main-title" id="newssec-title"> News</h2>
+            </div>
+            <div class="row">
+                <div class="news-container">
+                    <div class="news-box1" class="news-row">
+                        <div class="row header-row">
+                            <h id="headline"> AWAF Members Receive Discount to AutoTech: Electrification </h>
+                            <a href='#' style="color: rgb(215, 177, 215)" id="read-more"> Read More > </a>
+                        </div>
+                    </div>
+                    <div class="news-box2" class="news-row" >
+                        <div class="row header-row">
+                            <h id="headline"> Call for Nominations for AWAF Awards </h>
+                            <a href='#' style="color: rgb(215, 177, 215)" id="read-more"> Read More > </a>
+                        </div>
+                    </div>
+                    <div class="news-box3"class="news-row">
+                        <div class="row header-row">
+                           <h id="headline"> AWAF Scholarship Awarded During The Automotive Heritage Foundation Awards</h>
+                           <a href='#' style="color: rgb(215, 177, 215)" id="read-more"> Read More </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row" id="see-allrow">
+                <div class="row-button" id="see-more-button">
+                    <button type="button" class="btn btn-primary btn-lg" style="color: white; font-weight: bold !important; background-color: rgb(29, 8, 37) !important; border-color: white !important;"><h4 style="font-size: 25px !important"> See All News ></h4> </button>
+                </div>
+            </div>
+            <div class="row" id="block-deco">
+                <img src="assets/block-deco.png" alt="section divider">
+            </div>
+        </section>
+
+        <!--Sponsors Sec-->
+        <section class="sponsors-sec">
+            <div class="row" id="sponsors-row">
+                <h2 class="main-title" id="sponsors-title"> Thank You Sponsors!</h2>
+            </div>
+            <div class="sponsor-container">
+                <div class="sponsor1"> 
+                    <img src="assets/deloitte.png" id="deloitte" alt="deloitte logo">
+                </div>
+                <div class="sponsor2"> 
+                    <img src="assets/foley.jpeg" id="foley" alt="foley logo">
+                </div>
+                <div class="sponsor3">
+                    <img src="assets/forvia.png" id="forvia" alt="forvia logo">
+                </div>
+                <div class="sponsor4">
+                    <img src="assets/magna.jpeg" id="magna" alt="magna logo">
+                </div>
+            </div>
+        </section>
+
+        <!--Footer Sec-->
+        <section class="footer-sec">
+            <div class="left-footcol">
+                <img src="assets/awaf-rounded-logo.png" class="awaf-logo" alt="awaf-logo">
+                <h class="footer-text" style="padding-bottom: 30px !important"> AWAF is a registered 501(C)3 Organization</h>
+                <img src="assets/white-block.png" alt="section divider block">
+                <h class="footer-text2">
+                    Copyright 2022 Automotive Women's Alliance Foundation
+                </h>
+                <h class="footer-text2" style="padding:0% !important">
+                    All Rights Reserved
+                </h>
+            </div>
+            <div class="right-footcol">
+                <div class="social-container">
+                    <div class="facebook">
+                        <img src="assets/facebook.png" id="facebook-logo" alt="facebook logo">
+                    </div>
+                    <div class="twitter">
+                        <img src="assets/twitter.jpeg" id="twitter-logo" alt="twitter logo">
+                    </div>
+                    <div class="linkedln">
+                        <img src="assets/linkedln.png" id="linkedln-logo" alt="linkedln logo">
+                    </div>
+                    <div class="youtube">
+                        <img src="assets/youtube.png" id="youtube-logo" alt="youtube logo">
+                    </div>
+                </div>
+                <div class="row contact-row">
+                    <h class="footer-text" style="text-decoration-line: underline; padding-top: 30px; padding-bottom:30px !important"> Contact Us</h>
+                    <h class="footer-text"> Phone: (877) 393 - AWAF(2923)</h>
+                    <h class="footer-text"> Email: admin@AWAFoundation.org </h>
+                </div>
+            </div>
+        </section>
+
+    </body>
+</html>
